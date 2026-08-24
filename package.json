@@ -1,0 +1,26 @@
+{
+  "name": "antigravity-cn",
+  "version": "1.0.0",
+  "description": "Google Antigravity 界面中文汉化与本地化扩展插件及工具包",
+  "main": "src/core/i18n-engine.js",
+  "bin": {
+    "antigravity-cn": "bin/antigravity-cn.js"
+  },
+  "scripts": {
+    "inject": "node src/injector/cdp-injector.js",
+    "patch": "node src/patcher/asar-patcher.js install",
+    "unpatch": "node src/patcher/asar-patcher.js uninstall",
+    "status": "node src/patcher/asar-patcher.js status",
+    "test": "node test/test-dict.js"
+  },
+  "keywords": [
+    "antigravity",
+    "chinese",
+    "localization",
+    "i18n",
+    "zh-cn",
+    "electron-plugin"
+  ],
+  "author": "Antigravity-CN Community",
+  "license": "MIT"
+}
