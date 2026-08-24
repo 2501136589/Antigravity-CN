@@ -4,6 +4,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Release artifacts (should not be in git tracking)
+release/
+*.zip
+
+# Local agent configurations
+.agents/
+
 # Build and temp outputs
 obj/
 bin/Debug/
