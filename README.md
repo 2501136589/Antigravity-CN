@@ -40,9 +40,6 @@
 
 ```text
 Antigravity-CN/
-├── .agents/plugins/antigravity-cn/   # Antigravity 规范的 Agent 规则插件
-│   ├── plugin.json
-│   └── rules/AGENTS.md              # Agent 中文本地化输出准则
 ├── bin/
 │   └── antigravity-cn.js            # 跨平台 CLI 统一命令行入口
 ├── src/
