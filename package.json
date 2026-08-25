@@ -11,6 +11,7 @@
     "patch": "node src/patcher/asar-patcher.js install",
     "unpatch": "node src/patcher/asar-patcher.js uninstall",
     "status": "node src/patcher/asar-patcher.js status",
+    "build": "powershell -ExecutionPolicy Bypass -File scripts/build-release.ps1",
     "test": "node test/test-dict.js"
   },
   "keywords": [
