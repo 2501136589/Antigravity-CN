@@ -252,6 +252,7 @@
     "Require Review": "需要人工审查",
     "Custom": "自定义",
     "Allow": "允许",
+    "Deny": "拒绝",
     "Block": "阻止",
     "Ask": "每次询问",
     "Agent Behavior": "Agent 行为偏好",
