@@ -53,6 +53,15 @@
     "Expand All": "展开全部",
     "For Turn": "本轮对话",
     "Inspect Dom": "检查 DOM 元素",
+    "Uncommitted": "未提交变更",
+    "Staged index changes and working tree changes": "暂存区与工作区的所有未提交变更",
+    "Branch main": "针对 main 分支",
+    "All changes since origin/main": "自 origin/main 分支以来的所有变更",
+    "All changes since main": "自 main 分支以来的所有变更",
+    "Agent Edits": "Agent 修改记录",
+    "Files modified by the agent in this conversation": "本轮会话中由 Agent 修改的文件",
+    "See all": "查看全部",
+    "Ask anything, @ to mention, / for actions": "询问任何问题，@ 提及上下文，/ 触发快捷指令",
     "Permanently delete": "永久删除",
     "including": "包含",
     "active conversations.": "个活动会话。",
@@ -508,6 +517,22 @@
     {
       "regex": "^Select model, current: (.+)$",
       "replacement": "选择模型 (当前: $1)"
+    },
+    {
+      "regex": "^Branch (.+)$",
+      "replacement": "针对 $1 分支"
+    },
+    {
+      "regex": "^All changes since (.+)$",
+      "replacement": "自 $1 分支以来的所有变更"
+    },
+    {
+      "regex": "^See all \\((\\d+)\\)$",
+      "replacement": "查看全部 ($1)"
+    },
+    {
+      "regex": "^Media \\((.+)\\)$",
+      "replacement": "媒体文件 ($1)"
     }
   ]
 }
