@@ -102,6 +102,13 @@
     "New Terminal": "新建终端",
     "Open file": "打开文件",
     "New terminal": "新建终端",
+    "Commit": "提交",
+    "Stage and commit all changes": "暂存并提交所有变更",
+    "Push": "推送",
+    "Commit and Push": "提交并推送",
+    "Commit & Push": "提交并推送",
+    "Stage All Changes": "暂存所有变更",
+    "Unstage All Changes": "取消暂存所有变更",
     "Copy Content": "复制内容",
     "Copy Path": "复制路径",
     "Show in File Explorer": "在文件资源管理器中显示",
@@ -427,7 +434,8 @@
     "Toggle Auxiliary Pane": "展开/折叠辅助面板",
     "Notifications": "通知消息",
     "Typeahead menu": "自动补全菜单",
-    "Leave a comment": "输入评审批注..."
+    "Leave a comment": "输入评审批注...",
+    "Stage and commit all changes": "暂存并提交所有变更"
   },
   "patterns": [
     {
