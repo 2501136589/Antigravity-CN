@@ -93,6 +93,11 @@
     "Agent response": "Agent 回复",
     "Copy": "复制",
     "Copied": "已复制",
+    "Comment": "添加评审批注",
+    "Add to Chat": "添加到对话",
+    "Leave a comment": "输入评审批注...",
+    "Add Comment": "添加评论",
+    "Add comment": "添加评论",
     "Copy Content": "复制内容",
     "Copy Path": "复制路径",
     "Show in File Explorer": "在文件资源管理器中显示",
@@ -417,7 +422,8 @@
     "Go Forward": "前进",
     "Toggle Auxiliary Pane": "展开/折叠辅助面板",
     "Notifications": "通知消息",
-    "Typeahead menu": "自动补全菜单"
+    "Typeahead menu": "自动补全菜单",
+    "Leave a comment": "输入评审批注..."
   },
   "patterns": [
     {
